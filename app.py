@@ -11,4 +11,6 @@ st.title('Bonjour !')
 df = pd.DataFrame(values, columns=feature_names)
 
 df
-
+plot = df['alcohol']
+st.write('voici')
+st.line_chart(data=df, *, x='alcohol', y=None,)
